@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lw.cheqify.camera">
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="91dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="144dp"
+        android:text="CAPTURE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imagev1"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ImageView>
+</android.support.constraint.ConstraintLayout>
