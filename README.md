@@ -1,1 +1,0 @@
-# cheqify-android
